@@ -1,0 +1,19 @@
+@import 'normalize';
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: system, -apple-system, ".SFNSDisplay-Regular", HelveticaNeue, Arial;
+}
