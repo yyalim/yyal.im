@@ -17,4 +17,22 @@ html {
 body {
   height: 100%;
   font-family: Roboto, system, -apple-system, ".SFNSDisplay-Regular", HelveticaNeue, Arial;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--bg);
+  color: var(--textNormal);
+}
+
+body.dark {
+  --bg: #2c3344;
+  --textNormal: hsla(0,0%,100%,0.88);
+  --textTitle: #fff;
+  --hr: hsla(0,0%,100%,0.88);
+}
+
+#__next {
+  height: 100%;
+}
+
+.page-container {
+  height: 100%;
 }
