@@ -1,5 +1,6 @@
 @import 'normalize';
 @import 'fonts';
+@import 'typography';
 
 *,
 *:before,
@@ -16,10 +17,9 @@ html {
 
 body {
   height: 100%;
-  font-family: Roboto, system, -apple-system, ".SFNSDisplay-Regular", HelveticaNeue, Arial;
-  -webkit-font-smoothing: antialiased;
   background-color: var(--bg);
   color: var(--textNormal);
+  padding: 8vmin;
 }
 
 body.dark {

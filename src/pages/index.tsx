@@ -1,10 +1,9 @@
-import Hello from '../components/Hello'
-import styles from './index.module.scss'
+import Introduction from '../components/Introduction'
 
 export default function Home() {
   return (
-    <div className={`${styles['homepage']} page-container`}>
-      <Hello />
+    <div className="page-container">
+      <Introduction />
     </div>
   )
 }
