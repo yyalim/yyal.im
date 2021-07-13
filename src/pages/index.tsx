@@ -1,9 +1,11 @@
 import Introduction from '../components/Introduction'
+import Navigation from '../components/Navigation'
 
 export default function Home() {
   return (
-    <div className="page-container">
+    <section className="page-container">
       <Introduction />
-    </div>
+      <Navigation />
+    </section>
   )
 }

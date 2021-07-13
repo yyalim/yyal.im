@@ -20,9 +20,17 @@ body {
   background-color: var(--bg);
   color: var(--textNormal);
   padding: 8vmin;
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s ease;
+  background-color: transparent;
 }
 
 body.dark {
+  // --bg: #485874;
   --bg: #2c3344;
   --textNormal: hsla(0,0%,100%,0.88);
   --textTitle: #fff;
@@ -35,4 +43,24 @@ body.dark {
 
 .page-container {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    color: #FFA52C;
+    display: inline-block;
+    margin: 0 0 1vh 0;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+
+    &:hover {
+      color: #ce5971;
+    }
+  }
 }
