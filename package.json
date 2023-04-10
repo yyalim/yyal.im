@@ -19,9 +19,10 @@
   },
   "homepage": "https://github.com/yyalim/yyal.im#readme",
   "dependencies": {
-    "next": "^12.3.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "eslint-config-next": "^13.3.0",
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "sass": "^1.32.12"
   },
   "devDependencies": {
@@ -34,6 +35,6 @@
     "@types/react": "^17.0.5",
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3",
-    "typescript": "^4.2.4"
+    "typescript": "^5.0.4"
   }
 }
