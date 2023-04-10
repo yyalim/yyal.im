@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/yyalim/yyal.im#readme",
   "dependencies": {
-    "next": "^11.1.4",
+    "next": "^12.3.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "sass": "^1.32.12"
