@@ -1,0 +1,15 @@
+// assets for the social icons taken from https://github.com/gauravghongde/social-icons
+@mixin icon-size {
+  width: 48px;
+  height: 48px;
+}
+
+@mixin icon-github {
+  @include icon-size;
+  background-image: url('/icons/github.svg');
+}  
+
+@mixin icon-linkedin {
+  @include icon-size;
+  background-image: url('/icons/linkedin.svg');
+}

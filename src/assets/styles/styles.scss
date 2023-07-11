@@ -1,6 +1,7 @@
 @import 'normalize';
 @import 'fonts';
 @import 'typography';
+@import 'icons';
 
 *,
 *:before,
@@ -37,7 +38,6 @@ a {
 }
 
 body.dark {
-  // --bg: #485874;
   --bg: #2c3344;
   --textNormal: hsla(0,0%,100%,0.88);
   --textTitle: #fff;
@@ -57,17 +57,25 @@ body.dark {
 
 .social-links {
   display: flex;
-  flex-direction: column;
   list-style-type: none;
   padding: 0;
   margin: 0;
 
   li {
-    display: inline-block;
-    margin: 0 0 1vh 0;
+    margin: 0 1vh 1vh 0;
 
     a {
-      font-size: 48px;
+      text-indent: -9999px;
+      white-space: nowrap;
+      display: inline-block;
+    }
+
+    a.github {
+      @include icon-github;
+    }
+
+    a.linkedin {
+      @include icon-linkedin;
     }
   }
 }
