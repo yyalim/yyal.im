@@ -4,7 +4,7 @@ export default function Introduction() {
   return (
     <h1 className={styles['introduction']}>
       <span className={styles['name']}>Yusuf Yalım,</span>
-      a front-end focused software engineer.
+      a software engineer.
     </h1>
   );
 }
